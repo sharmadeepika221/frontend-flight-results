@@ -38,7 +38,7 @@ class ItineraryFooter extends Component {
   }
 }
 ItineraryFooter.defaultProps = {
-  price: 0,
+  price: '',
   agent: '',
 };
 

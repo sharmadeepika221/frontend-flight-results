@@ -1,11 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App should render correctly 1`] = `
- <div className={getClassName('App')}>
-    <Header />
-    <main className={getClassName('App__main')}>
-      <FlightsResult />
-      {/* TODO: Add a component to display results here */}
-    </main>
-  </div>
+<div
+  className="App"
+>
+  <Header />
+  <main
+    className="App__main"
+  >
+    <FlightsResult />
+  </main>
+</div>
 `;

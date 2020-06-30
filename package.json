@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "CI=true react-scripts test",
+    "test": "react-scripts test",
     "lint:scss": "stylelint 'src/**/*.scss' --syntax scss",
     "lint:scss:fix": "stylefmt --recursive 'src/**/*.scss'",
     "lint:js": "eslint . --ignore-path ./.gitignore --ext .js,.jsx",
@@ -18,6 +18,7 @@
     "lint": "npm run lint:js && npm run lint:scss"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.3",
     "babel-eslint": "^10.0.3",
     "backpack-react-scripts": "^7.0.2",
     "bpk-component-button": "^3.2.33",
@@ -31,7 +32,7 @@
     "eslint-config-skyscanner-with-prettier": "^0.8.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-test-renderer": "^16.11.0",
+    "react-test-renderer": "^16.13.1",
     "stylefmt": "^6.0.3",
     "stylelint": "^11.1.1",
     "stylelint-config-skyscanner": "^1.0.1"

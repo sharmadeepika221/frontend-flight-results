@@ -86,7 +86,7 @@ class Leg extends Component {
               </span>
             </div>
           </BpkGridColumn>
-          <BpkGridColumn width={2}>  </BpkGridColumn>
+          <BpkGridColumn width={2}> </BpkGridColumn>
           <BpkGridColumn width={2}>
             <div className={getClassName('txt_space')}>
               <span className={getClassName('blur_txt')}>

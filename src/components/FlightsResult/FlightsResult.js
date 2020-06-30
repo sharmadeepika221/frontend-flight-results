@@ -17,9 +17,8 @@ class FlightsResult extends React.Component {
   }
 
   componentDidMount() {
-    const api_url = 'http://localhost:9090/api/v1/flightResults';
     this.setState({ isLoading: true });
-    fetch(api_url)
+    fetch('flights.json')
       .then(response => {
         if (response.ok) {
           return response.json();
