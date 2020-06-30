@@ -1,0 +1,28 @@
+@import '~bpk-mixins';
+ul {
+    list-style-type: none;
+}
+.departure_row {
+    @include bpk-layer-arrow(1rem);
+  @include bpk-layer-arrow-right(1rem);
+}
+.hightlight_txt{
+    @include bpk-text-bold;
+    @include bpk-text--xl;
+}
+.blur_txt {
+    color: rgb(128,128,128)
+}
+.airline_icon {
+    width: 60%;
+    height: 60%;
+}
+.txt_space {
+    display: block;
+}
+.non_stop {
+    color: rgb(0, 166, 152);
+}
+.with_stops {
+    color: rgb(166, 33, 0);
+}
